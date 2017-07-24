@@ -1,0 +1,31 @@
+{
+  "name": "prime-wheels",
+  "version": "1.0.0",
+  "description": "Show 2-3-5 and 2-3-7 factorization wheels",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint src && preact test",
+    "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
+    "build": "preact build",
+    "serve": "preact build && preact serve",
+    "dev": "preact watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "eslint-config-synacor"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-synacor": "^1.0.1",
+    "if-env": "^1.0.0",
+    "loglevel": "^1.4.1",
+    "preact-cli": "^1.4.0"
+  },
+  "dependencies": {
+    "preact": "^8.2.1",
+    "preact-compat": "^3.16.0",
+    "preact-router": "^2.5.5"
+  }
+}
