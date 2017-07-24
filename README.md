@@ -17,3 +17,12 @@ npm run dev
 
 How to build static version
 ---------------------------
+```bash
+npm install
+npm run build
+```
+
+License
+-------
+
+MIT
